@@ -24,14 +24,14 @@
     $(document).ready(function(){
       var cpt = 0;
       // Fonction qui incrémente un text à chaque clique
-      $("#plus").click(function() {
-        // On affiche la valeur du compteur sur le <p>
-          $("#nbr").text(++cpt);
+      $('#plus').click(function() {
+        // On incrémente puis on affiche la valeur du compteur
+          $('#nbr').text(++cpt);
         })
       // Fonction qui décrémente un text à chaque clique
-      $("#minus").click(function() {
-        // On affiche la valeur du compteur sur le <p>
-          $("#nbr").text(--cpt);
+      $('#minus').click(function() {
+        // On décrémente puis on affiche la valeur du compteur
+          $('#nbr').text(--cpt);
         })
     });
   </script>
